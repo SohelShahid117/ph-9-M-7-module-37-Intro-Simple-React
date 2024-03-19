@@ -71,6 +71,9 @@ const  products = [
 ]
 console.log(products)
 
+
+// 37-3 Array Methods (Map, ForEach, Filter And Find )
+
 const brands = products.map((prdct)=>prdct.brand); //map------>noton akti array dibe
 console.log(brands)
 

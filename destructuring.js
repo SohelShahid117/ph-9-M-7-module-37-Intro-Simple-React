@@ -62,7 +62,7 @@ const {id,specification} = employee;
 console.log(id)
 console.log(specification)
 
-//12 min 
+
 
 const {weight,address} = employee.specification;
 console.log(weight)
