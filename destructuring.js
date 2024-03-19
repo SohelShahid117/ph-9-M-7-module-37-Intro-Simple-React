@@ -35,4 +35,38 @@ console.log(firstMvy)
 console.log(secondMvy)
 console.log(thirdMvy)
 
-//object destructuring:7min
+//object destructuring:e serial doesn't matter,key martch korlei o/p pabe otherwise undefined pabe
+
+const {nam,boyos} = {nam:'sohel',boyos:33,isMarried:true};
+console.log(nam);
+console.log(boyos);
+
+const employee = {
+    id :11,
+    designation : "jr developer",
+    language :['html','css','js'],
+    specification :{
+        height :66,
+        weight : 67,
+        address : 'ctg',
+        watch :{
+            color :'black',
+            price :500,
+            // brand :'casio'
+            brand :'casio'
+        }
+    }
+    
+}
+const {id,specification} = employee;
+console.log(id)
+console.log(specification)
+
+//12 min 
+
+const {weight,address} = employee.specification;
+console.log(weight)
+console.log(address)
+
+const {brand} = employee?.specification?.watch;
+console.log(brand);
